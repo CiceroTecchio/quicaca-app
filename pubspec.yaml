@@ -1,5 +1,5 @@
-name: quicaca_app
-description: A new Flutter project.
+name: Quicaca
+description: Irrigação Inteligente
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -14,8 +14,8 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
-
+  sdk: ">=2.7.0 <3.0.0"
+  
 dependencies:
   flutter:
     sdk: flutter
@@ -23,6 +23,18 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  http: 
+  flutter_login: ^1.0.14
+  shared_preferences: ^0.5.7+1
+  font_awesome_flutter: ^8.8.1
+  flutter_overlay_loader: ^0.0.2
+  full_screen_menu: ^0.1.2
+  bubble_bottom_bar: ^1.2.0
+  intl: ^0.16.1
+  grouped_checkbox: 1.0.0
+  time_range_picker: ^1.0.1
+  mask_text_input_formatter: ^1.0.6
+
 
 dev_dependencies:
   flutter_test:
@@ -41,8 +53,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
+  assets:
+   - assets/images/logo-quicaca.png
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

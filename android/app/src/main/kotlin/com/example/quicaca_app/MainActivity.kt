@@ -1,4 +1,4 @@
-package com.example.quicaca_app
+package com.example.Quicaca
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
